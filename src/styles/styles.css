@@ -110,3 +110,17 @@ body {
     font-size: 14px;
     color: #333;
 }
+
+.socia-media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 38px;
+    
+}
+
+.socia-media img{
+    width: 30px;
+    border-radius: 30%;
+    background-color: aliceblue;
+}
