@@ -3,17 +3,19 @@ body {
     display: flex;
     margin: 0;
     font-family: "Roboto", sans-serif;
+    background-color: rgb(160, 160, 231);
+    color: rgb(0, 0, 0);
 }
 
 .sidebar {
     width: 200px;
-    background-color: #2c3e50;
-    color: rgb(228, 22, 218);
+    background-color: #3482cf;
+    color: rgb(255, 255, 255);
     padding: 15px;
     height: 100vh;
     position: fixed;
     text-align: center;
-    overflow-y: auto; /* Adiciona rolagem vertical */
+   
 }
 
 .profile-pic {
@@ -48,17 +50,17 @@ body {
 }
 
 .sidebar ul li a {
-    color: rgb(39, 241, 90);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s;
-    border-bottom: 3px solid aliceblue;
+   
 }
 
 .sidebar ul li a:hover {
-    background-color: #34495e;
+    background-color: #5da5ec;
 }
 
 .content {
