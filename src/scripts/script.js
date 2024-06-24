@@ -1,5 +1,3 @@
-alert("portifolio em desenvolvimento")
-
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -11,4 +9,13 @@ document.querySelectorAll('.nav-link').forEach(link => {
             targetSection.classList.add('active');
         }
     });
+});
+
+const toggleButton = document.querySelector('.toggle-button');
+const sidebar = document.querySelector('.sidebar');
+const content = document.querySelector('.content');
+
+toggleButton.addEventListener('click', () => {
+    sidebar.classList.toggle('collapsed');
+    content.classList.toggle('collapsed');
 });

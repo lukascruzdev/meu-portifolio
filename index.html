@@ -7,170 +7,133 @@
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <div class="sidebar">
-        <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-pic">
-        
-        <h2>Menu</h2>
-        <ul>
-            <li><a href="#" class="nav-link" data-section="about">Quem Sou Eu</a></li>
-            <li><a href="#" class="nav-link" data-section="education">Onde Aprendi</a></li>
-            <li><a href="#" class="nav-link" data-section="projects">Meus Projetos</a></li>
-            <li><a href="#" class="nav-link" data-section="dreams">Meus Sonhos</a></li>
-            <li><a href="#" class="nav-link" data-section="hard-skills">Minhas Hard Skills</a></li>
-            <li><a href="#" class="nav-link" data-section="soft-skills">Minhas Soft Skills</a></li>
-        </ul>
-
-        <ul class="social-media">
-            <li>
-                <a href="#">
-                    <img src="./src/image/hard-logo/rede-social/insta.png" alt="Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="./src/image/hard-logo/rede-social/ghub.png" alt="GitHub">
-                </a>
-            </li>
-            <li>
-                <a href="#"><img src="./src/image/hard-logo/rede-social/linkedin.png" alt="LinkedIn"></a>
-            </li>
-        </ul>
-        
-    </div>
-    <div class="content">
-        <section id="about" class="section active">
-            
-            <img src="https://via.placeholder.com/350" alt="Foto de Perfil" class="bio-pic">
-            <h1>Quem Sou Eu</h1>
-            <p>
-                Olá, meu nome é Lucas. Tenho 37 anos e sou um entusiasta da programação web front-end, área na qual
-                venho me dedicando desde 2021. Minha paixão pela programação começou quando percebi o poder
-                transformador que a tecnologia pode ter na vida das pessoas e nas diversas áreas do conhecimento.
-            </p>
-            <p>
-                Atualmente, resido no interior da Bahia, onde tenho a tranquilidade e o foco necessários para me
-                aprofundar nos estudos e desenvolver projetos que possam fazer a diferença. A programação me permite
-                criar, inovar e resolver problemas de maneira criativa, o que alimenta minha curiosidade e desejo de
-                aprendizado contínuo.
-            </p>
-            <p>
-                Desde que comecei minha jornada na programação, venho aprimorando minhas habilidades em HTML, CSS e
-                JavaScript, sempre buscando estar atualizado com as últimas tendências e melhores práticas do mercado.
-                Meu objetivo é construir interfaces de usuário intuitivas, funcionais e atraentes, proporcionando a
-                melhor experiência possível para os usuários.
-            </p>
-            <p>
-                A vida no interior me ensinou a valorizar a simplicidade e a beleza dos pequenos detalhes, algo que
-                tento incorporar em meus projetos de desenvolvimento web. Cada linha de código escrita é uma
-                oportunidade de aprender algo novo e de me aproximar mais dos meus sonhos.
-            </p>
-            
-        </section>
-        <section id="education" class="section">
-            <h1>Onde Aprendi</h1>
-            <p>
-                Meu aprendizado em programação web front-end começou em 2021, e desde então tenho buscado constantemente
-                aprimorar minhas habilidades através de diversos cursos e plataformas. Aqui estão alguns dos principais
-                locais onde adquiri conhecimento:
-            </p>
+    <div class="container">
+        <div class="sidebar">
+            <button class="toggle-button">☰</button>
+            <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-pic">
+            <h2>Menu</h2>
             <ul>
-                <li><strong>EBAC:</strong> Cursos estruturados que forneceram uma base sólida em desenvolvimento web.
-                </li><br>
-                <li><strong>ONE BIT CODE:</strong> Aprendi técnicas avançadas de programação e melhores práticas do
-                    mercado.</li><br>
-                <li><strong>Udemy:</strong> Fiz diversos cursos que cobrem uma ampla gama de tópicos em programação,
-                    desde HTML e CSS até JavaScript avançado.</li><br>
-                <li><strong>YouTube:</strong> Utilizei tutoriais gratuitos para complementar meu aprendizado e me manter
-                    atualizado com as últimas tendências e tecnologias.</li><br>
+                <li><a href="#" class="nav-link" data-section="about"><span class="material-icons">person</span><span class="link-text">Quem Sou Eu</span></a></li>
+                <li><a href="#" class="nav-link" data-section="education"><span class="material-icons">school</span><span class="link-text">Onde Aprendi</span></a></li>
+                <li><a href="#" class="nav-link" data-section="projects"><span class="material-icons">work</span><span class="link-text">Meus Projetos</span></a></li>
+                <li><a href="#" class="nav-link" data-section="dreams"><span class="material-icons">nightlight_round</span><span class="link-text">Meus Sonhos</span></a></li>
+                <li><a href="#" class="nav-link" data-section="hard-skills"><span class="material-icons">build</span><span class="link-text">Minhas Hard Skills</span></a></li>
+                <li><a href="#" class="nav-link" data-section="soft-skills"><span class="material-icons">emoji_people</span><span class="link-text">Minhas Soft Skills</span></a></li>
             </ul>
-            <div class="course-logos">
-                <img src="./src/image/images.jfif" alt="Logo EBAC">
-                <img src="./src/image/6495df55e2ece21b709cb949_obcproicon.jpg" alt="Logo ONE BIT CODE">
-                <img src="./src/image/2cczQq-X_400x400.png" alt="Logo Udemy">
-            </div>
-        </section>
-        <section id="projects" class="section">
-            <h1>Meus Projetos</h1>
-            <p>Coloque aqui informações sobre seus projetos.</p>
-        </section>
-        <section id="dreams" class="section">
-            <h1>Meus Sonhos</h1>
-            <p>Coloque aqui informações sobre seus sonhos.</p>
-        </section>
-        <section id="hard-skills" class="section">
-            <h1>Minhas Hard Skills</h1>
-            <div class="skills-grid">
-                <div class="skill">
-                    <img src="src/image/hard-logo/html5-logotipo-original1.webp" alt="html5">
-                    <p>HTML5</p>
+            
+        </div>
+        <div class="content">
+            <section id="about" class="section active">
+                <img src="https://via.placeholder.com/350" alt="Foto de Perfil" class="bio-pic">
+                <h1>Quem Sou Eu</h1>
+                <p>
+                    Olá, meu nome é Lucas. Tenho 37 anos e sou um entusiasta da programação web front-end, área na qual venho me dedicando desde 2021. Minha paixão pela programação começou quando percebi o poder transformador que a tecnologia pode ter na vida das pessoas e nas diversas áreas do conhecimento.
+                </p>
+                <p>
+                    Atualmente, resido no interior da Bahia, onde tenho a tranquilidade e o foco necessários para me aprofundar nos estudos e desenvolver projetos que possam fazer a diferença. A programação me permite criar, inovar e resolver problemas de maneira criativa, o que alimenta minha curiosidade e desejo de aprendizado contínuo.
+                </p>
+                <p>
+                    Desde que comecei minha jornada na programação, venho aprimorando minhas habilidades em HTML, CSS e JavaScript, sempre buscando estar atualizado com as últimas tendências e melhores práticas do mercado. Meu objetivo é construir interfaces de usuário intuitivas, funcionais e atraentes, proporcionando a melhor experiência possível para os usuários.
+                </p>
+                <p>
+                    A vida no interior me ensinou a valorizar a simplicidade e a beleza dos pequenos detalhes, algo que tento incorporar em meus projetos de desenvolvimento web. Cada linha de código escrita é uma oportunidade de aprender algo novo e de me aproximar mais dos meus sonhos.
+                </p>
+            </section>
+            <section id="education" class="section">
+                <h1>Onde Aprendi</h1>
+                <p>
+                    Meu aprendizado em programação web front-end começou em 2021, e desde então tenho buscado constantemente aprimorar minhas habilidades através de diversos cursos e plataformas. Aqui estão alguns dos principais locais onde adquiri conhecimento:
+                </p>
+                <ul>
+                    <li><strong>EBAC:</strong> Cursos estruturados que forneceram uma base sólida em desenvolvimento web.</li><br>
+                    <li><strong>ONE BIT CODE:</strong> Aprendi técnicas avançadas de programação e melhores práticas do mercado.</li><br>
+                    <li><strong>Udemy:</strong> Fiz diversos cursos que cobrem uma ampla gama de tópicos em programação, desde HTML e CSS até JavaScript avançado.</li><br>
+                    <li><strong>YouTube:</strong> Utilizei tutoriais gratuitos para complementar meu aprendizado e me manter atualizado com as últimas tendências e tecnologias.</li><br>
+                </ul>
+                <div class="course-logos">
+                    <img src="./src/image/images.jfif" alt="Logo EBAC">
+                    <img src="./src/image/6495df55e2ece21b709cb949_obcproicon.jpg" alt="Logo ONE BIT CODE">
+                    <img src="./src/image/2cczQq-X_400x400.png" alt="Logo Udemy">
                 </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/CSS3_logo_and_wordmark.svg" alt="css3">
-                    <p>CSS3</p>
+            </section>
+            <section id="projects" class="section">
+                <h1>Meus Projetos</h1>
+                <p>Coloque aqui informações sobre seus projetos.</p>
+            </section>
+            <section id="dreams" class="section">
+                <h1>Meus Sonhos</h1>
+                <p>Coloque aqui informações sobre seus sonhos.</p>
+            </section>
+            <section id="hard-skills" class="section">
+                <h1>Minhas Hard Skills</h1>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <img src="src/image/hard-logo/html5-logotipo-original1.webp" alt="html5">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/CSS3_logo_and_wordmark.svg" alt="css3">
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/images-js.png" alt="javascript">
+                        <p>JAVASCRIPT</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/react.png" alt="react">
+                        <p>REACT</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/node.png" alt="node.js">
+                        <p>NODE.JS</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/git.png" alt="git">
+                        <p>GIT</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/GitHub_Invertocat_Logo.svg.png" alt="github">
+                        <p>GITHUB</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/less.webp" alt="less">
+                        <p>LESS</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/sass.png" alt="sass">
+                        <p>SASS</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/grunt-logo.png" alt="grunt">
+                        <p>GRUNT</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/getting-to-know-gulp.png" alt="gulp">
+                        <p>GULP</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/jquery.png" alt="jquery">
+                        <p>JQUERY</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/figma-1698087967030-2x.jpg" alt="figma">
+                        <p>FIGMA</p>
+                    </div>
+                    <div class="skill">
+                        <img src="./src/image/hard-logo/bootstrap.png" alt="bootstrap">
+                        <p>BOOTSTRAP</p>
+                    </div>
                 </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/images-js.png" alt="javascript">
-                    <p>JAVASCRIPT</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/react.png" alt="react">
-                    <p>REACT</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/node.png" alt="node.js">
-                    <p>NODE.JS</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/git.png" alt="git">
-                    <p>GIT</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/GitHub_Invertocat_Logo.svg.png" alt="github">
-                    <p>GITHUB</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/less.webp" alt="less">
-                    <p>LESS</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/sass.png" alt="sass">
-                    <p>SASS</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/grunt-logo.png" alt="grunt">
-                    <p>GRUNT</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/getting-to-know-gulp.png" alt="gulp">
-                    <p>GULP</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/jquery.png" alt="jquery">
-                    <p>JQUERY</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/figma-1698087967030-2x.jpg" alt="figma">
-                    <p>FIGMA</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/parcel-box-title.webp" alt="parcel">
-                    <p>PARCEL</p>
-                </div>
-                <div class="skill">
-                    <img src="./src/image/hard-logo/bootstrap-stack.png" alt="bootstrap">
-                    <p>BOOTSTRAP</p>
-                </div>
-            </div>
-        </section>
-        <section id="soft-skills" class="section">
-            <h1>Minhas Soft Skills</h1>
-            <p>Liste aqui suas soft skills.</p>
-        </section>
+            </section>
+            <section id="soft-skills" class="section">
+                <h1>Minhas Soft Skills</h1>
+                <p>Liste aqui suas soft skills.</p>
+            </section>
+        </div>
     </div>
     <script src="src/scripts/script.js"></script>
 </body>
