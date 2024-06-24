@@ -9,7 +9,7 @@ body {
     display: flex;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    background-color: rgb(160, 160, 231);
+    background-color: rgb(112, 148, 224);
     color: rgb(0, 0, 0);
     
 }
@@ -134,4 +134,9 @@ body {
     width: 30px;
     border-radius: 30%;
     background-color: aliceblue;
+    
+}
+
+.social-media img:hover{
+    box-shadow: 2px 2px;
 }
