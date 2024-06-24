@@ -23,6 +23,7 @@ body {
     position: fixed;
     text-align: center;
     border-radius: 5px;
+    border-right: 3px solid rgb(255, 115, 0);
    
 }
 
