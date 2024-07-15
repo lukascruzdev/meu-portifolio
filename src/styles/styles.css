@@ -9,8 +9,8 @@ body {
     display: flex;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    background-color: rgb(112, 148, 224);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(64, 236, 12);
 }
 
 .container {
@@ -20,14 +20,14 @@ body {
 
 .sidebar {
     width: 200px;
-    background-color: #3482cf;
-    color: rgb(255, 255, 255);
+    background-color: #000000;
+    color: rgb(17, 231, 45);
     padding: 15px;
     height: 100vh;
     position: fixed;
     text-align: center;
     border-radius: 5px;
-    border-right: 3px solid rgb(255, 115, 0);
+    border-right: 3px solid rgb(10, 221, 80);
     transition: width 0.3s;
     overflow: hidden;
 }
@@ -185,9 +185,9 @@ body {
     position: absolute;
     top: 15px;
     right: 15px;
-    background-color: #3482cf;
+    background-color: #030303;
     border: none;
-    color: white;
+    color: rgb(6, 231, 81);
     font-size: 20px;
     cursor: pointer;
 }
