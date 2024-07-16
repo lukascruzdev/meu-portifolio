@@ -27,7 +27,7 @@ body {
     position: fixed;
     text-align: center;
     border-radius: 5px;
-    border-right: 3px solid rgb(10, 221, 80);
+    border-right: 6px solid rgb(10, 221, 80);
     transition: width 0.3s;
     overflow: hidden;
 }
@@ -96,7 +96,9 @@ body {
 }
 
 .sidebar ul li a:hover {
-    background-color: #5da5ec;
+    background-color: #69ec5d;
+    color: #1f201f;
+    font-weight: bold;
 }
 
 .sidebar ul li a .link-text {
