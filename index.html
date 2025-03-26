@@ -1,97 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <button class="toggle-button">☰</button>
-            <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-pic">
-            <h2>Menu</h2>
-            <ul>
-                <li><a href="#" class="nav-link" data-section="about"><span class="material-icons">person</span><span class="link-text">Quem Sou Eu</span></a></li>
-                <li><a href="#" class="nav-link" data-section="education"><span class="material-icons">school</span><span class="link-text">Onde Aprendi</span></a></li>
-                <li><a href="#" class="nav-link" data-section="projects"><span class="material-icons">work</span><span class="link-text">Meus Projetos</span></a></li>
-                <li><a href="#" class="nav-link" data-section="dreams"><span class="material-icons">nightlight_round</span><span class="link-text">Meus Sonhos</span></a></li>
-                <li><a href="#" class="nav-link" data-section="hard-skills"><span class="material-icons">build</span><span class="link-text">Minhas Hard Skills</span></a></li>
-                <li><a href="#" class="nav-link" data-section="soft-skills"><span class="material-icons">emoji_people</span><span class="link-text">Minhas Soft Skills</span></a></li>
-            </ul>
-            
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="/imagens/logo.webp" alt=""></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="nav-link" > <a href="#perfil" >quem sou eu</a> </li>
+                    <li class="nav-link"> <a href="#skills">Minhas Skills</a> </li>
+                    <li class="nav-link"> <a href="#curriculo">Curriculo</a> </li>
+                    <li class="nav-link"> <a href="#projetos">Projetos</a> </li>
+                    
+                </ul>
+            </div>
         </div>
-        <div class="content">
-            <section id="about" class="section active">
-                <img src="https://via.placeholder.com/350" alt="Foto de Perfil" class="bio-pic">
-                <h1>Quem Sou Eu</h1>
-                <p>
-                    Olá, meu nome é Lucas. Tenho 37 anos e sou um entusiasta da programação web front-end, área na qual venho me dedicando desde 2021. Minha paixão pela programação começou quando percebi o poder transformador que a tecnologia pode ter na vida das pessoas e nas diversas áreas do conhecimento.
-                </p>
-                <p>
-                    Atualmente, resido no interior da Bahia, onde tenho a tranquilidade e o foco necessários para me aprofundar nos estudos e desenvolver projetos que possam fazer a diferença. A programação me permite criar, inovar e resolver problemas de maneira criativa, o que alimenta minha curiosidade e desejo de aprendizado contínuo.
-                </p>
-                <p>
-                    Desde que comecei minha jornada na programação, venho aprimorando minhas habilidades em HTML, CSS e JavaScript, sempre buscando estar atualizado com as últimas tendências e melhores práticas do mercado. Meu objetivo é construir interfaces de usuário intuitivas, funcionais e atraentes, proporcionando a melhor experiência possível para os usuários.
-                </p>
-                <p>
-                    A vida no interior me ensinou a valorizar a simplicidade e a beleza dos pequenos detalhes, algo que tento incorporar em meus projetos de desenvolvimento web. Cada linha de código escrita é uma oportunidade de aprender algo novo e de me aproximar mais dos meus sonhos.
-                </p>
-            </section>
-            <section id="education" class="section">
-                <h1>Onde Aprendi</h1>
-                <p>
-                    Meu aprendizado em programação web front-end foi impulsionado por cursos online renomados, como aqueles oferecidos pela Alura. Através desses cursos, pude construir uma base sólida e avançar rapidamente no desenvolvimento de minhas habilidades técnicas.
-                </p>
-                <div class="course-logos">
-                    <img src="./src/image/hard-logo/alura-logo.png" alt="Alura">
-                    <img src="./src/image/hard-logo/rocketseat-logo.png" alt="Rocketseat">
-                </div>
-            </section>
-            <section id="projects" class="section">
-                <h1>Meus Projetos</h1>
-                <p>Lista dos meus projetos desenvolvidos.</p>
-            </section>
-            <section id="dreams" class="section">
-                <h1>Meus Sonhos</h1>
-                <p>Lista dos meus sonhos e objetivos.</p>
-            </section>
-            <section id="hard-skills" class="section">
-                <h1>Minhas Hard Skills</h1>
-                <div class="skills-grid">
-                    <div class="skill">
-                        <img src="./src/image/hard-logo/html5.png" alt="HTML5">
-                        <p>HTML5</p>
-                    </div>
-                    <div class="skill">
-                        <img src="./src/image/hard-logo/css3.png" alt="CSS3">
-                        <p>CSS3</p>
-                    </div>
-                    <div class="skill">
-                        <img src="./src/image/hard-logo/javascript.png" alt="JavaScript">
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="skill">
-                        <img src="./src/image/hard-logo/react.png" alt="React">
-                        <p>React</p>
-                    </div>
-                    <div class="skill">
-                        <img src="./src/image/hard-logo/bootstrap.png" alt="Bootstrap">
-                        <p>Bootstrap</p>
-                    </div>
-                </div>
-            </section>
-            <section id="soft-skills" class="section">
-                <h1>Minhas Soft Skills</h1>
-                <p>Liste aqui suas soft skills.</p>
-            </section>
+    </header>
+
+    <section class="banner" id="perfil">
+
+        <div class="people">
+            <h1>quem sou <span>EU</span></h1>
+            <div class="oculto">
+                lukas, 20 anos, estudante de tecnologia da informação, apaixonado por programação e tecnologia.
+            </div>
+            <p>Olá! Sou Lukas, estudante de programação web, apaixonado por desenvolvimento front-end e back-end.
+                Atualmente, estou aprimorando minhas habilidades em HTML, CSS, JavaScript e frameworks modernos. Gosto
+                de criar interfaces intuitivas e funcionais, além de explorar novas tecnologias. Busco constantemente
+                desafios que me permitam aprender e evoluir na área.</p>
         </div>
-    </div>
-    <script src="src/scripts/script.js"></script>
+        <img class="foto" src="/imagens/lucasjjj.JPG" alt="">
+    </section>
+
+    <section class="skills" id="skills">
+        <h1>Minhas Skills</h1>
+        <div>
+
+            <img src="/imagens/skills/html.png" alt="">
+            <img src="/imagens/skills/css.jpeg" alt="">
+            <img src="/imagens/skills/js.png" alt="">
+            <img src="/imagens/skills/less.png" alt="">
+            <img src="/imagens/skills/sass.png" alt="">
+            <img src="/imagens/skills/bootstrap.png" alt="">
+            <img src="/imagens/skills/gulp-2x.png" alt="">
+            <img src="/imagens/skills/Grunt_logo.svg.png" alt="">
+            <img src="/imagens/skills/react.png" alt="">
+            <img src="/imagens/skills/node js.webp" alt="">
+        </div>
+    </section>
+    <section class="curriculo" id="curriculo">
+        <h2>Currículo</h2>
+        <p>Baixe meu currículo atualizado no link abaixo:</p>
+        <a href="#" download="Curriculo-Lukas.pdf" class="btn-download">Baixar Currículo</a>
+    </section>
+    <section class="projetos-curso" id="projetos">
+        <h2>Projetos e Cursos</h2>
+        <div class="projetos">
+            <div class="projeto">
+                <img src="/imagens/Captura de tela_11-3-2025_13513_ebac-tech-talks-bo21.vercel.app.jpeg" alt="">
+                <h3>Convite e Evento</h3>
+                <p>site feito enquanto estudante de programação web - EBAC</p>
+                <a href="https://ebac-tech-talks-bo21.vercel.app/" class="btn-saiba-mais" target="_blank">Saiba mais</a>
+            </div>
+
+            <div class="projeto">
+                <img src="/imagens/Captura de tela_11-3-2025_135750_landpage-boostrap.vercel.app.jpeg" alt="">
+                <h3>Pite Provedor </h3>
+                <p>site feito enquanto estudante de programação web - EBAC</p>
+                <a href="https://landpage-boostrap.vercel.app/" class="btn-saiba-mais" target="">Saiba mais</a>
+            </div>
+
+            <div class="projeto">
+                <img src="./imagens/Captura de tela_11-3-2025_1414_lista-telefonica-five.vercel.app.jpeg" alt="">
+                <h3>Lista Telefonica</h3>
+                <p>site feito enquanto estudante de programação web - EBAC</p>
+                <a href="https://lista-telefonica-five.vercel.app/" class="btn-saiba-mais" target="_blank">Saiba
+                    mais</a>
+            </div>
+
+            <div class="projeto" >
+                <img src="/imagens/Captura de tela_11-3-2025_14347_projeto1-liart.vercel.app.jpeg" alt="">
+                <h3>site - Anime</h3>
+                <p>site feito enquanto estudante de programação web - EBAC</p>
+                <a href="https://projeto1-liart.vercel.app/" target="_blank" class="btn-saiba-mais">Saiba mais</a>
+            </div>
+
+            <div class="projeto">
+                <img src="/imagens/Captura de tela_11-3-2025_14543_tarefa-2-boostrap.vercel.app.jpeg" alt="">
+                <h3>blog -ebac</h3>
+                <p>site feito enquanto estudante de programação web - EBAC</p>
+                <a href="https://tarefa-2-boostrap.vercel.app/" target="_blank" class="btn-saiba-mais">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 - Lukas</p>
+
+        <div>
+            <a href="https://www.instagram.com/lukas_oliveira_/" target="_blank"><img src="/imagens/instagram.png"
+                alt="">instagran</a>
+        <a href="https://www.linkedin.com/in/lukas-oliveira-7b1b3b1b4/" target="_blank"><img src="/imagens/linkedin.png"
+                alt="">linkedin</a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script"></script>
 </body>
+
 </html>
